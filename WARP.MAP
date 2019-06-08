@@ -1,0 +1,1120 @@
+
+ Start  Stop   Length Name                   Class            Group
+ 00000H 00000H 00000H F77LCODE               F77LCODE
+Type=Public  Base Address=0000:0
+00000H 00000H 00000H   Module=warp.obj(warp)
+00000H 00000H 00000H   Module=c:\f77l\graph.lib(axisb)
+00000H 00000H 00000H   Module=c:\f77l\graph.lib(number)
+
+ 00000H 00131H 00132H _MAIN                  F77LCODE
+Type=Private  Base Address=0000:0
+00000H 00131H 00132H   Module=warp.obj(warp)
+
+ 00140H 0015FH 00020H _FLG2RT                F77LCODE
+Type=Private  Base Address=0014:0
+00000H 0001FH 00020H   Module=warp.obj(warp)
+
+ 00160H 00452H 002F3H WARP_FUNCTION          F77LCODE
+Type=Private  Base Address=0016:0
+00000H 002F2H 002F3H   Module=warp.obj(warp)
+
+ 00460H 004DEH 0007FH CLEAR                  F77LCODE
+Type=Private  Base Address=0046:0
+00000H 0007EH 0007FH   Module=warp.obj(warp)
+
+ 004E0H 0053EH 0005FH WAIT_KEY               F77LCODE
+Type=Private  Base Address=004E:0
+00000H 0005EH 0005FH   Module=warp.obj(warp)
+
+ 00540H 00CEFH 007B0H axisb                  F77LCODE
+Type=Private  Base Address=0054:0
+00000H 007AFH 007B0H   Module=c:\f77l\graph.lib(axisb)
+
+ 00CF0H 00DB6H 000C7H number                 F77LCODE
+Type=Private  Base Address=00CF:0
+00000H 000C6H 000C7H   Module=c:\f77l\graph.lib(number)
+
+ 00DC0H 00E74H 000B5H FPNLEN                 F77LCODE
+Type=Private  Base Address=00DC:0
+00000H 000B4H 000B5H   Module=c:\f77l\graph.lib(number)
+
+ 00E80H 0109CH 0021DH NMFMT$                 F77LCODE
+Type=Private  Base Address=00E8:0
+00000H 0021CH 0021DH   Module=c:\f77l\graph.lib(number)
+
+ 010A0H 010A0H 00000H AACODE                 F77LCODE
+Type=Public  Base Address=010A:0
+00000H 00000H 00000H   Module=C:\F77L\F77L.LIB(f77l)
+
+ 010A0H 01131H 00092H _L_MAIN                F77LDATA
+Type=Public  Base Address=010A:0
+00000H 00091H 00092H   Module=warp.obj(warp)
+
+ 01140H 011B3H 00074H _N_MAIN                F77LDATA
+Type=Public  Base Address=0114:0
+00000H 00073H 00074H   Module=warp.obj(warp)
+
+ 011C0H 011CBH 0000CH _LAXISB                F77LDATA
+Type=Public  Base Address=011C:0
+00000H 0000BH 0000CH   Module=c:\f77l\graph.lib(axisb)
+
+ 011D0H 011FBH 0002CH _NAXISB                F77LDATA
+Type=Public  Base Address=011D:0
+00000H 0002BH 0002CH   Module=c:\f77l\graph.lib(axisb)
+
+ 01200H 01212H 00013H _LNUMBER               F77LDATA
+Type=Public  Base Address=0120:0
+00000H 00012H 00013H   Module=c:\f77l\graph.lib(number)
+
+ 01220H 01223H 00004H _NNUMBER               F77LDATA
+Type=Public  Base Address=0122:0
+00000H 00003H 00004H   Module=c:\f77l\graph.lib(number)
+
+ 01230H 01237H 00008H PENS@00                F77LCOMN
+Type=Common  Base Address=0123:0
+00000H 00007H 00008H   Module=warp.obj(warp)
+
+ 01240H 012C3H 00084H _MAIN@00               F77LCOMN
+Type=Common  Base Address=0124:0
+00000H 00083H 00084H   Module=warp.obj(warp)
+
+ 012D0H 01317H 00048H @AXISB@00              F77LCOMN
+Type=Common  Base Address=012D:0
+00000H 00047H 00048H   Module=c:\f77l\graph.lib(axisb)
+
+ 01318H 027D1H 014BAH DATA                   DATA             DGROUP
+Type=Public  Base Address=0131:0
+00008H 00009H 00002H   Module=c:\f77l\graph.lib(plots)
+0000AH 00031H 00028H   Module=c:\f77l\graph.lib(grinfo)
+00032H 00039H 00008H   Module=c:\f77l\graph.lib(plot)
+0003AH 0003AH 00000H   Module=c:\f77l\graph.lib(newpen)
+0003AH 0003DH 00004H   Module=c:\f77l\graph.lib(symbol)
+0003EH 0003EH 00000H   Module=c:\f77l\graph.lib(fill)
+0003EH 0003EH 00000H   Module=c:\f77l\graph.lib(keys)
+0003EH 0003EH 00000H   Module=c:\f77l\graph.lib(kbclr)
+0003EH 0005BH 0001EH   Module=c:\f77l\graph.lib(clip)
+0005CH 0005DH 00002H   Module=c:\f77l\graph.lib(text)
+0005EH 00172H 00115H   Module=c:\f77l\graph.lib(DATA)
+00174H 00DA7H 00C34H   Module=c:\f77l\graph.lib(font)
+00DA8H 00DA8H 00000H   Module=c:\f77l\graph.lib(symlen)
+00DA8H 00DAFH 00008H   Module=c:\f77l\graph.lib(rotate)
+00DB0H 00E2DH 0007EH   Module=c:\f77l\graph.lib(setvid)
+00E2EH 00E2EH 00000H   Module=c:\f77l\graph.lib(circle)
+00E2EH 00E33H 00006H   Module=c:\f77l\graph.lib(detect)
+00E34H 00E34H 00000H   Module=c:\f77l\graph.lib(bios)
+00E34H 00E37H 00004H   Module=c:\f77l\graph.lib(cga)
+00E38H 00E38H 00000H   Module=c:\f77l\graph.lib(ega)
+00E38H 00E45H 0000EH   Module=c:\f77l\graph.lib(herc)
+00E46H 00E46H 00001H   Module=c:\f77l\graph.lib(v256)
+00E48H 00E4EH 00007H   Module=C:\F77L\F77L.LIB(e87nit)
+00E50H 00E6DH 0001EH   Module=C:\F77L\F77L.LIB(f77l)
+00E6EH 00E6EH 00000H   Module=C:\F77L\F77L.LIB(break)
+00E6EH 00EF3H 00086H   Module=C:\F77L\F77L.LIB(sys)
+00EF4H 01232H 0033FH   Module=C:\F77L\F77L.LIB(ereport)
+01234H 0123BH 00008H   Module=C:\F77L\F77L.LIB(power1)
+0123CH 0124EH 00013H   Module=C:\F77L\F77L.LIB(util)
+01250H 01251H 00002H   Module=C:\F77L\F77L.LIB(log10)
+01252H 01255H 00004H   Module=C:\F77L\F77L.LIB(mod)
+01256H 01261H 0000CH   Module=C:\F77L\F77L.LIB(sin)
+01262H 012F7H 00096H   Module=C:\F77L\F77L.LIB(init)
+012F8H 01428H 00131H   Module=C:\F77L\F77L.LIB(inter)
+0142AH 01465H 0003CH   Module=C:\F77L\F77L.LIB(openpath)
+01466H 01467H 00002H   Module=C:\F77L\F77L.LIB(log)
+01468H 0146BH 00004H   Module=C:\F77L\F77L.LIB(exp)
+0146CH 0146DH 00002H   Module=C:\F77L\F77L.LIB(sin1)
+0146EH 0148FH 00022H   Module=C:\F77L\F77L.LIB(ioconv)
+01490H 01490H 00000H   Module=C:\F77L\F77L.LIB(afmtio)
+01490H 01490H 00000H   Module=C:\F77L\F77L.LIB(flg2rt)
+01490H 014C1H 00032H   Module=C:\F77L\F77L.LIB(cpuchk)
+014C2H 014C2H 00000H   Module=C:\F77L\F77L.LIB(ctlbrk)
+014C2H 014C2H 00000H   Module=C:\F77L\F77L.LIB(adirect)
+
+ 027D2H 0285FH 0008EH _MW                    DATA             DGROUP
+Type=Public  Base Address=027D:0
+00002H 0008FH 0008EH   Module=C:\F77L\F77L.LIB(f77l)
+
+ 02860H 02867H 00008H _MWLTCONV              DATA             DGROUP
+Type=Common  Base Address=0286:0
+00000H 00007H 00008H   Module=C:\F77L\F77L.LIB(f77l)
+
+ 02868H 028DBH 00074H @MINIMUM               DATA             DGROUP
+Type=Public  Base Address=0286:0
+00008H 0007BH 00074H   Module=C:\F77L\F77L.LIB(minimum)
+
+ 028DCH 02947H 0006CH @FMTOT                 DATA             DGROUP
+Type=Public  Base Address=028D:0
+0000CH 00077H 0006CH   Module=C:\F77L\F77L.LIB(fmtot)
+
+ 02948H 029ADH 00066H @FMTCK                 DATA             DGROUP
+Type=Public  Base Address=0294:0
+00008H 0006DH 00066H   Module=C:\F77L\F77L.LIB(fmtck)
+
+ 029B0H 02AA8H 000F9H YEMUDS                 DATA             DGROUP
+Type=Common  Base Address=029B:0
+00000H 000F8H 000F9H   Module=C:\F77L\F77L.LIB(emu)
+
+ 02AAAH 02B05H 0005CH @FCB                   DATA             DGROUP
+Type=Public  Base Address=02AA:0
+0000AH 00065H 0005CH   Module=C:\F77L\F77L.LIB(fcb)
+
+ 02B06H 02BA2H 0009DH @IOMISC                DATA             DGROUP
+Type=Public  Base Address=02B0:0
+00006H 000A2H 0009DH   Module=C:\F77L\F77L.LIB(iomisc)
+
+ 02BA4H 02C09H 00066H @MEM1                  DATA             DGROUP
+Type=Public  Base Address=02BA:0
+00004H 00069H 00066H   Module=C:\F77L\F77L.LIB(mem1)
+
+ 02C0AH 02CD7H 000CEH @FMTIO                 DATA             DGROUP
+Type=Public  Base Address=02C0:0
+0000AH 000D7H 000CEH   Module=C:\F77L\F77L.LIB(fmtio)
+
+ 02CD8H 02CD8H 00000H _MWDUMMY               DATA             DGROUP
+Type=Private  Base Address=02CD:0
+00008H 00008H 00000H   Module=C:\F77L\F77L.LIB(divl)
+
+ 02CD8H 04290H 015B9H _TEXT                  CODE
+Type=Public  Base Address=02CD:0
+00008H 000D8H 000D1H   Module=c:\f77l\graph.lib(plots)
+000DAH 0017DH 000A4H   Module=c:\f77l\graph.lib(grinfo)
+0017EH 0027FH 00102H   Module=c:\f77l\graph.lib(plot)
+00280H 002A6H 00027H   Module=c:\f77l\graph.lib(newpen)
+002A8H 004B5H 0020EH   Module=c:\f77l\graph.lib(symbol)
+004B6H 00694H 001DFH   Module=c:\f77l\graph.lib(fill)
+00696H 006DFH 0004AH   Module=c:\f77l\graph.lib(keys)
+006E0H 006ECH 0000DH   Module=c:\f77l\graph.lib(kbclr)
+006EEH 00889H 0019CH   Module=c:\f77l\graph.lib(clip)
+0088AH 00942H 000B9H   Module=c:\f77l\graph.lib(text)
+00944H 0096FH 0002CH   Module=c:\f77l\graph.lib(DATA)
+00970H 009B6H 00047H   Module=c:\f77l\graph.lib(symlen)
+009B8H 00A57H 000A0H   Module=c:\f77l\graph.lib(rotate)
+00A58H 00ACDH 00076H   Module=c:\f77l\graph.lib(setvid)
+00ACEH 00C45H 00178H   Module=c:\f77l\graph.lib(circle)
+00C46H 00D3EH 000F9H   Module=c:\f77l\graph.lib(detect)
+00D40H 00E34H 000F5H   Module=c:\f77l\graph.lib(bios)
+00E36H 00FD0H 0019BH   Module=c:\f77l\graph.lib(cga)
+00FD2H 011F1H 00220H   Module=c:\f77l\graph.lib(ega)
+011F2H 01438H 00247H   Module=c:\f77l\graph.lib(herc)
+0143AH 015C0H 00187H   Module=c:\f77l\graph.lib(v256)
+
+ 042A0H 06807H 02568H CODE                   CODE
+Type=Public  Base Address=042A:0
+00000H 0015BH 0015CH   Module=C:\F77L\F77L.LIB(e87nit)
+00160H 0036AH 0020BH   Module=C:\F77L\F77L.LIB(f77l)
+0036BH 00440H 000D6H   Module=C:\F77L\F77L.LIB(break)
+00441H 008D6H 00496H   Module=C:\F77L\F77L.LIB(sys)
+008D7H 00E5EH 00588H   Module=C:\F77L\F77L.LIB(ereport)
+00E60H 01014H 001B5H   Module=C:\F77L\F77L.LIB(power1)
+01015H 011A6H 00192H   Module=C:\F77L\F77L.LIB(util)
+011B0H 01206H 00057H   Module=C:\F77L\F77L.LIB(log10)
+01210H 0124AH 0003BH   Module=C:\F77L\F77L.LIB(mod)
+0124BH 0126AH 00020H   Module=C:\F77L\F77L.LIB(fcheqs)
+01270H 013A0H 00131H   Module=C:\F77L\F77L.LIB(sin)
+013B0H 01679H 002CAH   Module=C:\F77L\F77L.LIB(init)
+0167AH 01A36H 003BDH   Module=C:\F77L\F77L.LIB(inter)
+01A40H 01B37H 000F8H   Module=C:\F77L\F77L.LIB(openpath)
+01B38H 01B38H 00001H   Module=C:\F77L\F77L.LIB(usernit)
+01B39H 01B39H 00001H   Module=C:\F77L\F77L.LIB(usertrm)
+01B3AH 01B3AH 00001H   Module=C:\F77L\F77L.LIB(usernit2)
+01B3BH 01B3BH 00001H   Module=C:\F77L\F77L.LIB(usernit3)
+01B3CH 01B3CH 00001H   Module=C:\F77L\F77L.LIB(usernit4)
+01B3DH 01B3DH 00001H   Module=C:\F77L\F77L.LIB(usertrm2)
+01B3EH 01B3EH 00001H   Module=C:\F77L\F77L.LIB(usertrm3)
+01B3FH 01B3FH 00001H   Module=C:\F77L\F77L.LIB(usertrm4)
+01B40H 01B9AH 0005BH   Module=C:\F77L\F77L.LIB(log)
+01BA0H 01C2CH 0008DH   Module=C:\F77L\F77L.LIB(exp)
+01C30H 01C58H 00029H   Module=C:\F77L\F77L.LIB(sin1)
+01C59H 020D1H 00479H   Module=C:\F77L\F77L.LIB(ioconv)
+020D2H 02267H 00196H   Module=C:\F77L\F77L.LIB(afmtio)
+02270H 02287H 00018H   Module=C:\F77L\F77L.LIB(flg2rt)
+02290H 022DDH 0004EH   Module=C:\F77L\F77L.LIB(cpuchk)
+022DEH 02331H 00054H   Module=C:\F77L\F77L.LIB(ctlbrk)
+02332H 02567H 00236H   Module=C:\F77L\F77L.LIB(adirect)
+
+ 06810H 06822H 00013H AABASE                 CODE
+Type=Public  Base Address=0681:0
+00000H 00012H 00013H   Module=C:\F77L\F77L.LIB(f77l)
+
+ 06824H 06BEBH 003C8H minimum                CODE
+Type=Private  Base Address=0682:0
+00004H 003CBH 003C8H   Module=C:\F77L\F77L.LIB(minimum)
+
+ 06BECH 081D0H 015E5H fmtot                  CODE
+Type=Private  Base Address=06BE:0
+0000CH 015F0H 015E5H   Module=C:\F77L\F77L.LIB(fmtot)
+
+ 081D2H 08F54H 00D83H fmtck                  CODE
+Type=Private  Base Address=081D:0
+00002H 00D84H 00D83H   Module=C:\F77L\F77L.LIB(fmtck)
+
+ 08F60H 0B09CH 0213DH ZEMUCS                 CODE
+Type=Public  Base Address=08F6:0
+00000H 0213CH 0213DH   Module=C:\F77L\F77L.LIB(emu)
+
+ 0B09EH 0B216H 00179H fcb                    CODE
+Type=Private  Base Address=0B09:0
+0000EH 00186H 00179H   Module=C:\F77L\F77L.LIB(fcb)
+
+ 0B218H 0BE78H 00C61H iomisc                 CODE
+Type=Private  Base Address=0B21:0
+00008H 00C68H 00C61H   Module=C:\F77L\F77L.LIB(iomisc)
+
+ 0BE7AH 0C316H 0049DH mem1                   CODE
+Type=Private  Base Address=0BE7:0
+0000AH 004A6H 0049DH   Module=C:\F77L\F77L.LIB(mem1)
+
+ 0C318H 0D4F8H 011E1H fmtio                  CODE
+Type=Private  Base Address=0C31:0
+00008H 011E8H 011E1H   Module=C:\F77L\F77L.LIB(fmtio)
+
+ 0D4FAH 0D51BH 00022H _MWMPYL_               CODE
+Type=Private  Base Address=0D4F:0
+0000AH 0002BH 00022H   Module=C:\F77L\F77L.LIB(mpyl)
+
+ 0D51CH 0D6AEH 00193H _MWDIVL_               CODE
+Type=Private  Base Address=0D51:0
+0000CH 0019EH 00193H   Module=C:\F77L\F77L.LIB(divl)
+
+ 0D6AFH 0D6AFH 00000H APROG                  
+Type=Private  Base Address=0D6A:0
+0000FH 0000FH 00000H   Module=C:\F77L\F77L.LIB(f77l)
+
+ 0D6AFH 0D6AFH 00000H _COMMON_@00            F77LBLNK
+Type=Common  Base Address=0D6A:0
+0000FH 0000FH 00000H   Module=C:\F77L\F77L.LIB(init)
+
+ 0D6AFH 0D6AFH 00000H _COMMOZ_               F77LBLNK
+Type=Common  Base Address=0D6A:0
+0000FH 0000FH 00000H   Module=C:\F77L\F77L.LIB(init)
+
+ 0D6B0H 0DEAFH 00800H _STACK                 STACK
+Type=Stack  Base Address=0D6B:0
+00000H 007FFH 00800H   Module=C:\F77L\F77L.LIB(init)
+
+
+ Origin   Group
+ 0131:8   DGROUP
+
+  Address         Publics by Name
+
+ 042A:1B40       @ALOG
+ 042A:11B0       @ALOG10
+ 042A:1210       @AMOD
+ 042A:1270       @COS
+ 042A:1270       @DCOS
+ 042A:1BA0       @DEXP
+ 042A:1B40       @DLOG
+ 042A:11B0       @DLOG10
+ 042A:1210       @DMOD
+ 042A:12A6       @DSIN
+ 042A:1BA0       @EXP
+ 042A:1210       @I2MOD
+ 042A:1B40       @LOG
+ 042A:11B0       @LOG10
+ 042A:1210       @MOD
+ 042A:12A6       @SIN
+ 0054:0006       AXISB
+ 0131:14CF       BIG?
+ 02CD:0DFA       BINIT_
+ 02CD:08F4       BTEXT_
+ 0131:00DC       CHLIN_
+ 02CD:0F92       CINIT_
+ 02CD:0ACE       CIRCLE
+ 0131:006E       CIRCLE_
+ 0046:0006       CLEAR
+ 0131:0064       COLOR_
+ 02CD:0070       CONST_
+ 0131:0167       D2R_
+ 02CD:0C46       DETECT_
+ 0000:0009  Abs  DISIZE_
+ 0131:0060       DRAW_
+ 0131:0008       DVRFPT_
+ 02CD:1192       EINIT_
+ 0131:0068       EOJ_
+ 0131:0066       EOP_
+ 0131:14C2       ERRNO
+ 0131:00E2       ERROR_
+ 0000:FE32  Abs  FIARQQ
+ 0000:0E32  Abs  FICRQQ
+ 0000:5C32  Abs  FIDRQQ
+ 0000:1632  Abs  FIERQQ
+ 02CD:04B6       FILL
+ 0131:0072       FILLCIR_
+ 0131:0070       FILL_
+ 0000:0632  Abs  FISRQQ
+ 0000:A23D  Abs  FIWRQQ
+ 0000:4000  Abs  FJARQQ
+ 0000:C000  Abs  FJCRQQ
+ 0000:8000  Abs  FJSRQQ
+ 0131:016F       FONT_
+ 00DC:0006       FPNLEN
+ 0000:000B  Abs  FPSIZE_
+ 0131:0042       GCLIP_
+ 0131:006C       GETPIX_
+ 02CD:00DA       GRINFO
+ 0131:0165       GSEG_
+ 02CD:088A       GTEXT
+ 02CD:1392       HINIT_
+ 0131:005E       INIT_
+ 02CD:06BA       ISKEY
+ 02CD:0696       IXKEY
+ 02CD:06E0       KBCLR
+ 0131:14CD       LARGE?
+ 0131:003E       LCLIP_
+ 0286:0002       LT1I
+ 0286:0006       LT1O
+ 0286:0003       LT2I
+ 0286:0007       LT2O
+ 0286:0000       LTCONV_IN
+ 0286:0004       LTCONV_OUT
+ 0131:14CE       MODEL?
+ 0131:0062       MOVE_
+ 0131:00E0       NBYTES_
+ 02CD:0280       NEWPEN
+ 00E8:0006       NMFMT$
+ 02CD:096E       NULL_
+ 00CF:0006       NUMBER
+ 0131:13F1       OLD_DIV0
+ 0131:0040       PCLIP_
+ 02CD:017E       PLOT
+ 02CD:0008       PLOTS
+ 02CD:09B8       ROANG$
+ 02CD:09FC       ROTAT$
+ 0131:006A       SETPIX_
+ 02CD:0A58       SETVID_
+ 0131:0174       SINDX_
+ 0131:00E4       SPACE_
+ 0131:003A       STROKE_
+ 02CD:06EE       SUBCLP_
+ 02CD:02A8       SYMBOL
+ 02CD:0970       SYMLEN
+ 0131:00CE       TEXT2_
+ 0131:00CC       TEXT_
+ 02CD:090A       TXTINFO_
+ 0131:0DB0       VDIT_
+ 0131:0086       VIDFPT_
+ 0131:00DE       VIDTYP_
+ 02CD:1570       VINIT_
+ 004E:0006       WAIT_KEY
+ 0016:0006       WARP_FUNCTION
+ 0131:0074       WDIT_
+ 0131:005E       WORKFPT_
+ 0131:0054       X1CLIP_
+ 0131:0058       X2CLIP_
+ 0131:0056       Y1CLIP_
+ 0131:005A       Y2CLIP_
+ 0131:12A9       _287EMU_FLAG
+ 0131:12AA       _386_FLAG
+ 0131:12AB       _387_FLAG
+ 042A:04A3       _7_OPEN
+ 042A:060F       _7_READ
+ 042A:06A8       _7_WRITE
+ 0682:01FF       _7_close
+ 0BE7:0082       _7_sbrk
+ 042A:1081       _87CHOP
+ 0131:12A5       _87EMU_FLAG
+ 042A:10E1       _87FLAGS
+ 042A:109C       _87INIT
+ 042A:1060       _87INT
+ 042A:1068       _87ROUND
+ 042A:10C5       _87RSTOR
+ 042A:10AD       _87SAVE
+ 042A:10DE       _87TEST
+ 042A:10D6       _87TESTP
+ 042A:1044       _87TRUNC
+ 042A:01E3       _ABORT_WITH_MSG
+ 042A:1E4F       _ADJ_CONVERT_NUMBER
+ 042A:1FC7       _ADJ_STORE
+ 042A:112D       _ADML2C
+ 042A:1EF7       _ASCII_TO_FLOAT
+ 0131:0E54       _BASE
+ 0131:0E6B       _BIG_STACK
+ 0131:00C6       _BKCOLOR
+ 042A:0431       _BRAKDFL
+ 042A:03DA       _BRAKLBL
+ 042A:0403       _BRAKLOG
+ 0131:13DF       _BREAK_ADDR
+ 0131:123E       _BREAK_LABEL_BP
+ 0131:12FA       _BREAK_LABEL_CS
+ 0131:12F8       _BREAK_LABEL_IP
+ 0131:12FC       _BREAK_LABEL_SP
+ 0131:12FE       _BREAK_LABEL_SS
+ 0131:1300       _BREAK_LOGICAL_ADDRESS
+ 0131:1302       _BREAK_LOGICAL_SEG
+ 0131:1428       _BRK_INT
+ 042A:097A       _CCERR1
+ 042A:0931       _CCERROR
+ 0131:0E6A       _CF77L_FLAG
+ 0131:1278       _CHAIN_FCBS
+ 0131:127C       _CHAIN_FILENAME
+ 042A:0361       _CHAIN_FILE_ERROR
+ 0131:127A       _CHAIN_HANDLE
+ 042A:0366       _CHAIN_SYSTEM_ERROR
+ 042A:04D9       _CHECK_DEVICE
+ 042A:17EA       _CHECK_FOR_RUNTIME
+ 042A:1015       _CHECK_VERSION
+ 042A:073A       _CHOPFIL
+ 0131:00D4       _CHTBL
+ 0131:00D8       _CHTBL2
+ 02CD:0B44       _CIRC_
+ 042A:2270       _CK_FLAGS
+ 0131:0044       _CLIPX1
+ 0131:004C       _CLIPX2
+ 0131:0048       _CLIPY1
+ 0131:0050       _CLIPY2
+ 042A:10CA       _CLR_RTP
+ 0131:00C4       _COLOR
+ 0131:1270       _COMMON_ADDRESS
+ 0D6A:000F       _COMMON_BEGIN
+ 0D6A:000F       _COMMON_END
+ 042A:0902       _COMMON_ERROR
+ 0131:1242       _CONTROL
+ 0131:14D0       _CTYPE
+ 0131:00A8       _CVX
+ 0131:00AC       _CVY
+ 042A:0706       _DISPLAY
+ 0131:0E62       _DOSVER
+ 042A:0000       _E87NIT
+ 042A:01ED       _EGETSTK
+ 042A:0234       _EGETSTK_SOLD
+ 08F6:0023       _EMINIT287
+ 08F6:0000       _EMINIT87
+ 042A:0313       _ENSURE_STK
+ 0131:0E6C       _ENTRYES
+ 0131:1001       _ERROR_BUFFER
+ 0131:0F0A       _ERROR_FILE_HANDLE
+ 0131:0FF4       _ERROR_PLEX
+ 042A:0AC9       _ERROR_SUB
+ 0131:1229       _ERROUT_HANDLE
+ 042A:01C1       _EXITDOS
+ 042A:0980       _F77ERRENTRY
+ 042A:13B0       _F77LINIT
+ 042A:124B       _FCHEQS
+ 0131:009C       _FCTR
+ 02CD:0584       _FILL_
+ 0014:0000       _FLG2RT
+ 042A:1CA5       _FLOAT_SETUP
+ 042A:08C0       _FLUSH_DOS
+ 0131:14C4       _FMODE
+ 042A:02BA       _FSTKRTN
+ 042A:10F6       _FUNENTR
+ 042A:110B       _FUNEXIT
+ 042A:02FE       _GETSTK
+ 042A:0796       _GET_BYTE
+ 042A:0D39       _GET_CS_IP
+ 042A:2332       _GET_N_D
+ 042A:20D2       _GET_N_FMT_BYTES
+ 0131:12A8       _H87_FLAG
+ 042A:20B9       _INT8087
+ 042A:1809       _INTERRUPT_80287
+ 042A:181D       _INTERRUPT_8087
+ 042A:17D3       _INTERRUPT_EMU
+ 042A:17E5       _INTERRUPT_EMU_287
+ 042A:0779       _INT_DOS
+ 042A:08D7       _IOERR
+ 042A:0F23       _IPOWI
+ 042A:0E60       _IPOWR
+ 0131:00C0       _LASTX
+ 0131:00C2       _LASTY
+ 042A:2290       _LFCHECK_CPU_TYPE
+ 042A:1D8E       _LFROUND
+ 042A:111B       _LNORMAL
+ 042A:115B       _LONG_SEG
+ 0131:123C       _LOWCORE_FLAGS
+ 0000:0006       _MAIN
+ 0131:146E       _MAXIMUM
+ 0131:1470       _MAX_PRINT
+ 0131:0E56       _MBASE
+ 042A:0357       _MEMORY_ERROR
+ 042A:0357       _MEMORY_ERROR_LOCAL
+ 0131:0E5E       _MEND
+ 0131:12AE       _MISSING_NDP_MSG
+ 0131:0E5A       _MNEXT
+ 0131:00C8       _MODE
+ 0131:1425       _MSW
+ 0131:14C7       _MW8087
+ 0131:14C6       _MW87
+ 0131:14CA       _MW87_USED
+ 0131:14CB       _MWIS_286
+ 0131:14CC       _MWIS_386
+ 0131:14C8       _MWSTACK_LIMIT
+ 042A:041E       _NBRAK
+ 0131:124E       _NDPTYPE
+ 0131:1427       _NDP_INT_NO
+ 042A:07EB       _NEXT_BU
+ 042A:087A       _NEXT_WR_BUFFER
+ 0131:13F9       _OLD07
+ 0131:1421       _OLD0F
+ 0131:13F9       _OLD34
+ 0131:1419       _OLD3C
+ 0131:141D       _OLD3D
+ 0131:13E5       _OLD_CONTROL_BREAK
+ 0131:13E9       _OLD_NDP
+ 0131:13ED       _OLD_WEITEK_NDP
+ 042A:0B25       _OPEN_ERROR_FILE
+ 042A:1A40       _OPEN_PA
+ 0131:0E64       _OVERHEAD
+ 042A:1E38       _PACK_EXPONENT
+ 0131:1488       _PFILL
+ 0131:123D       _PLEX_UNFORMATTED_FLAG
+ 042A:103A       _PREPC
+ 0131:12A2       _PROG_SIZE
+ 042A:0720       _PROMP
+ 042A:1185       _PTR_ADD
+ 042A:0818       _PUT_A
+ 042A:080D       _PUT_BYTE
+ 042A:2457       _PUT_N_D
+ 042A:21B5       _PUT_N_FMT_BYTES
+ 042A:0262       _QGETSTK
+ 042A:028C       _QGETSTK_SOLD
+ 042A:02E7       _QSTKRTN
+ 042A:0B4C       _READ_ERROR_FILE
+ 042A:16ED       _RESTORE_VECTORS
+ 042A:1DA0       _ROUND_I
+ 042A:0F77       _RPOWI
+ 042A:0E60       _RPOWR
+ 042A:090F       _RTERROR
+ 0131:1246       _RTFLAG
+ 042A:1173       _SEG_LONG
+ 042A:1770       _SET_BREAK
+ 042A:22DE       _SET_CTLBRK
+ 042A:1681       _SET_INTERRUPTS
+ 042A:0444       _SET_NAME
+ 042A:10B7       _SET_RTP
+ 0131:1228       _SOLD_FLAG
+ 042A:035C       _STACK_ERROR
+ 042A:0165       _STARTUP
+ 0131:1240       _STATUS
+ 0131:1262       _STKBOT
+ 0682:0178       _STOP
+ 0131:00CA       _SVMODE
+ 0131:0E50       _TOP
+ 0131:00D2       _TXCOLS
+ 0131:00D0       _TXLINES
+ 0131:13DE       _UNDERFLAG
+ 042A:1B38       _USERNIT
+ 042A:1B3A       _USERNIT2
+ 042A:1B3B       _USERNIT3
+ 042A:1B3C       _USERNIT4
+ 042A:1B39       _USERTRM
+ 042A:1B3D       _USERTRM2
+ 042A:1B3E       _USERTRM3
+ 042A:1B3F       _USERTRM4
+ 042A:1026       _VCT_GETMEM
+ 042A:1030       _VCT_RLSMEM
+ 0131:0EE4       _WINDINT
+ 042A:035C       _XCOVF
+ 0131:00B0       _XLAST
+ 0131:00A0       _XO
+ 0131:00B8       _XS
+ 0131:12A4       _XT_FLAG
+ 0131:00B4       _YLAST
+ 0131:00A4       _YO
+ 0131:00BC       _YS
+ 042A:1299       __COS
+ 042A:1C30       __COS387
+ 042A:0534       __CREATE
+ 042A:1BC9       __EXP
+ 0131:0EE6       __GET20
+ 042A:1B69       __LOG
+ 042A:0590       __LSEEK
+ 042A:05C7       __LSIZE
+ 0131:0E62       __OSMAJOR
+ 0131:0E63       __OSMINOR
+ 0131:0EEE       __RST20
+ 0131:0EEA       __SET20
+ 042A:12CF       __SIN
+ 042A:1C3D       __SIN387
+ 042A:06EB       __UNLINK
+ 042A:056E       ___CLOSE
+ 0B21:0464       __back1_sequential
+ 0B21:05A5       __drst
+ 0B21:03A3       __gpvc
+ 0131:187E       __prompt
+ 0682:038C       _alloc_buffer
+ 0B09:005C       _alocfcb
+ 0B09:0176       _check_for_io
+ 0C31:0AB9       _check_position
+ 0C31:1154       _clenflag
+ 0B21:0202       _cmp_name
+ 0682:0108       _conflsh
+ 0B21:08AF       _create_scratch_file
+ 0131:1971       _crrnt_char
+ 0131:15C8       _curfcb
+ 0682:005F       _delfcb
+ 0C31:0B0F       _end_input_record
+ 0C31:0C2C       _end_output_record
+ 0B21:0A88       _ensure_tty
+ 0131:15C0       _err_fcb
+ 0131:15BA       _err_position
+ 0131:15C4       _fcb_list
+ 0C31:0129       _fmt_initialize
+ 0C31:0185       _fmt_list_process
+ 081D:0002       _fmtck
+ 0131:195E       _fmtflag
+ 0B09:000E       _fndname
+ 0682:0004       _fndunit
+ 0B09:0102       _get_current_fcb
+ 0C31:1067       _get_fmt_byte
+ 0BE7:00AC       _getmem
+ 0BE7:00BF       _getml
+ 0B09:010A       _init_fcb
+ 0C31:0008       _init_internal
+ 0131:15B8       _iostat
+ 0C31:117F       _itemsize
+ 0BE7:000A       _lsbrk
+ 06BE:1522       _margin_check
+ 0131:18F2       _melt
+ 0D51:00D2       _mwdivl
+ 0D51:015B       _mwmodl
+ 0D4F:000A       _mwmpyl
+ 0D51:0182       _mwreml
+ 0D51:000C       _mwudivl
+ 0D51:00B5       _mwumodl
+ 06BE:018B       _ncode
+ 0131:1970       _nl_flag
+ 0C31:1175       _ntznumf
+ 06BE:000C       _ontzf
+ 06BE:0696       _otchr
+ 06BE:0462       _otcmx16
+ 06BE:041C       _otcmx8
+ 06BE:01B9       _otdnf
+ 06BE:02B3       _otint1
+ 06BE:02E9       _otint2
+ 06BE:031E       _otint4
+ 06BE:0354       _otint8
+ 06BE:05BE       _otlog1
+ 06BE:05E1       _otlog4
+ 06BE:0231       _otrel4
+ 06BE:0272       _otrel8
+ 0C31:0DCD       _put_fmt_byte
+ 0B21:09CE       _read_buffer
+ 0B09:0125       _release_fcb
+ 0BE7:01BF       _rlsmem
+ 0BE7:01D8       _rlsml
+ 0B21:0008       _set_read_mode
+ 0B21:0527       _set_record
+ 0B21:004E       _set_write_mode
+ 0B21:0BEC       _stcu_d
+ 0B21:0254       _strcmpr
+ 0B21:0348       _strcopy
+ 0682:00E2       _tag_fcb
+ 0B21:00E6       _truncate
+ 0B21:01C5       _unit_check
+ 0682:02FC       _write_buffer
+ 0131:15BC       buffer_size_default
+ 0131:195C       output_append_reset_by_input
+ 0B21:0BDA       set_iostat
+
+  Address         Publics by Value
+
+ 0000:0006       _MAIN
+ 0000:0009  Abs  DISIZE_
+ 0000:000B  Abs  FPSIZE_
+ 0014:0000       _FLG2RT
+ 0016:0006       WARP_FUNCTION
+ 0046:0006       CLEAR
+ 004E:0006       WAIT_KEY
+ 0054:0006       AXISB
+ 0000:0632  Abs  FISRQQ
+ 00CF:0006       NUMBER
+ 00DC:0006       FPNLEN
+ 0000:0E32  Abs  FICRQQ
+ 00E8:0006       NMFMT$
+ 0131:0008       DVRFPT_
+ 0131:003A       STROKE_
+ 0131:003E       LCLIP_
+ 0131:0040       PCLIP_
+ 0131:0042       GCLIP_
+ 0131:0044       _CLIPX1
+ 0131:0048       _CLIPY1
+ 0131:004C       _CLIPX2
+ 0131:0050       _CLIPY2
+ 0131:0054       X1CLIP_
+ 0131:0056       Y1CLIP_
+ 0131:0058       X2CLIP_
+ 0131:005A       Y2CLIP_
+ 0131:005E       INIT_
+ 0131:005E       WORKFPT_
+ 0131:0060       DRAW_
+ 0131:0062       MOVE_
+ 0131:0064       COLOR_
+ 0131:0066       EOP_
+ 0131:0068       EOJ_
+ 0131:006A       SETPIX_
+ 0131:006C       GETPIX_
+ 0131:006E       CIRCLE_
+ 0131:0070       FILL_
+ 0131:0072       FILLCIR_
+ 0131:0074       WDIT_
+ 0131:0086       VIDFPT_
+ 0131:009C       _FCTR
+ 0131:00A0       _XO
+ 0131:00A4       _YO
+ 0131:00A8       _CVX
+ 0131:00AC       _CVY
+ 0131:00B0       _XLAST
+ 0131:00B4       _YLAST
+ 0131:00B8       _XS
+ 0131:00BC       _YS
+ 0131:00C0       _LASTX
+ 0131:00C2       _LASTY
+ 0131:00C4       _COLOR
+ 0131:00C6       _BKCOLOR
+ 0131:00C8       _MODE
+ 0131:00CA       _SVMODE
+ 0131:00CC       TEXT_
+ 0131:00CE       TEXT2_
+ 0131:00D0       _TXLINES
+ 0131:00D2       _TXCOLS
+ 0131:00D4       _CHTBL
+ 0131:00D8       _CHTBL2
+ 0131:00DC       CHLIN_
+ 0131:00DE       VIDTYP_
+ 0131:00E0       NBYTES_
+ 0131:00E2       ERROR_
+ 0131:00E4       SPACE_
+ 0131:0165       GSEG_
+ 0131:0167       D2R_
+ 0131:016F       FONT_
+ 0131:0174       SINDX_
+ 0000:1632  Abs  FIERQQ
+ 0131:0DB0       VDIT_
+ 0131:0E50       _TOP
+ 0131:0E54       _BASE
+ 0131:0E56       _MBASE
+ 0131:0E5A       _MNEXT
+ 0131:0E5E       _MEND
+ 0131:0E62       __OSMAJOR
+ 0131:0E62       _DOSVER
+ 0131:0E63       __OSMINOR
+ 0131:0E64       _OVERHEAD
+ 0131:0E6A       _CF77L_FLAG
+ 0131:0E6B       _BIG_STACK
+ 0131:0E6C       _ENTRYES
+ 0131:0EE4       _WINDINT
+ 0131:0EE6       __GET20
+ 0131:0EEA       __SET20
+ 0131:0EEE       __RST20
+ 0131:0F0A       _ERROR_FILE_HANDLE
+ 0131:0FF4       _ERROR_PLEX
+ 0131:1001       _ERROR_BUFFER
+ 0131:1228       _SOLD_FLAG
+ 0131:1229       _ERROUT_HANDLE
+ 0131:123C       _LOWCORE_FLAGS
+ 0131:123D       _PLEX_UNFORMATTED_FLAG
+ 0131:123E       _BREAK_LABEL_BP
+ 0131:1240       _STATUS
+ 0131:1242       _CONTROL
+ 0131:1246       _RTFLAG
+ 0131:124E       _NDPTYPE
+ 0131:1262       _STKBOT
+ 0131:1270       _COMMON_ADDRESS
+ 0131:1278       _CHAIN_FCBS
+ 0131:127A       _CHAIN_HANDLE
+ 0131:127C       _CHAIN_FILENAME
+ 0131:12A2       _PROG_SIZE
+ 0131:12A4       _XT_FLAG
+ 0131:12A5       _87EMU_FLAG
+ 0131:12A8       _H87_FLAG
+ 0131:12A9       _287EMU_FLAG
+ 0131:12AA       _386_FLAG
+ 0131:12AB       _387_FLAG
+ 0131:12AE       _MISSING_NDP_MSG
+ 0131:12F8       _BREAK_LABEL_IP
+ 0131:12FA       _BREAK_LABEL_CS
+ 0131:12FC       _BREAK_LABEL_SP
+ 0131:12FE       _BREAK_LABEL_SS
+ 0131:1300       _BREAK_LOGICAL_ADDRESS
+ 0131:1302       _BREAK_LOGICAL_SEG
+ 0131:13DE       _UNDERFLAG
+ 0131:13DF       _BREAK_ADDR
+ 0131:13E5       _OLD_CONTROL_BREAK
+ 0131:13E9       _OLD_NDP
+ 0131:13ED       _OLD_WEITEK_NDP
+ 0131:13F1       OLD_DIV0
+ 0131:13F9       _OLD07
+ 0131:13F9       _OLD34
+ 0131:1419       _OLD3C
+ 0131:141D       _OLD3D
+ 0131:1421       _OLD0F
+ 0131:1425       _MSW
+ 0131:1427       _NDP_INT_NO
+ 0131:1428       _BRK_INT
+ 0131:146E       _MAXIMUM
+ 0131:1470       _MAX_PRINT
+ 0131:1488       _PFILL
+ 0131:14C2       ERRNO
+ 0131:14C4       _FMODE
+ 0131:14C6       _MW87
+ 0131:14C7       _MW8087
+ 0131:14C8       _MWSTACK_LIMIT
+ 0131:14CA       _MW87_USED
+ 0131:14CB       _MWIS_286
+ 0131:14CC       _MWIS_386
+ 0131:14CD       LARGE?
+ 0131:14CE       MODEL?
+ 0131:14CF       BIG?
+ 0131:14D0       _CTYPE
+ 0286:0000       LTCONV_IN
+ 0286:0002       LT1I
+ 0286:0003       LT2I
+ 0286:0004       LTCONV_OUT
+ 0286:0006       LT1O
+ 0286:0007       LT2O
+ 0131:15B8       _iostat
+ 0131:15BA       _err_position
+ 0131:15BC       buffer_size_default
+ 0131:15C0       _err_fcb
+ 0131:15C4       _fcb_list
+ 0131:15C8       _curfcb
+ 0131:187E       __prompt
+ 0131:18F2       _melt
+ 0131:195C       output_append_reset_by_input
+ 0131:195E       _fmtflag
+ 0131:1970       _nl_flag
+ 0131:1971       _crrnt_char
+ 02CD:0008       PLOTS
+ 02CD:0070       CONST_
+ 02CD:00DA       GRINFO
+ 02CD:017E       PLOT
+ 02CD:0280       NEWPEN
+ 02CD:02A8       SYMBOL
+ 02CD:04B6       FILL
+ 02CD:0584       _FILL_
+ 02CD:0696       IXKEY
+ 02CD:06BA       ISKEY
+ 02CD:06E0       KBCLR
+ 02CD:06EE       SUBCLP_
+ 02CD:088A       GTEXT
+ 02CD:08F4       BTEXT_
+ 02CD:090A       TXTINFO_
+ 02CD:096E       NULL_
+ 02CD:0970       SYMLEN
+ 02CD:09B8       ROANG$
+ 02CD:09FC       ROTAT$
+ 02CD:0A58       SETVID_
+ 02CD:0ACE       CIRCLE
+ 02CD:0B44       _CIRC_
+ 02CD:0C46       DETECT_
+ 02CD:0DFA       BINIT_
+ 02CD:0F92       CINIT_
+ 02CD:1192       EINIT_
+ 0000:4000  Abs  FJARQQ
+ 02CD:1392       HINIT_
+ 02CD:1570       VINIT_
+ 042A:0000       _E87NIT
+ 042A:0165       _STARTUP
+ 042A:01C1       _EXITDOS
+ 042A:01E3       _ABORT_WITH_MSG
+ 042A:01ED       _EGETSTK
+ 042A:0234       _EGETSTK_SOLD
+ 042A:0262       _QGETSTK
+ 042A:028C       _QGETSTK_SOLD
+ 042A:02BA       _FSTKRTN
+ 042A:02E7       _QSTKRTN
+ 042A:02FE       _GETSTK
+ 042A:0313       _ENSURE_STK
+ 042A:0357       _MEMORY_ERROR
+ 042A:0357       _MEMORY_ERROR_LOCAL
+ 042A:035C       _XCOVF
+ 042A:035C       _STACK_ERROR
+ 042A:0361       _CHAIN_FILE_ERROR
+ 042A:0366       _CHAIN_SYSTEM_ERROR
+ 042A:03DA       _BRAKLBL
+ 042A:0403       _BRAKLOG
+ 042A:041E       _NBRAK
+ 042A:0431       _BRAKDFL
+ 042A:0444       _SET_NAME
+ 042A:04A3       _7_OPEN
+ 042A:04D9       _CHECK_DEVICE
+ 042A:0534       __CREATE
+ 042A:056E       ___CLOSE
+ 042A:0590       __LSEEK
+ 042A:05C7       __LSIZE
+ 042A:060F       _7_READ
+ 042A:06A8       _7_WRITE
+ 042A:06EB       __UNLINK
+ 042A:0706       _DISPLAY
+ 042A:0720       _PROMP
+ 042A:073A       _CHOPFIL
+ 042A:0779       _INT_DOS
+ 042A:0796       _GET_BYTE
+ 042A:07EB       _NEXT_BU
+ 042A:080D       _PUT_BYTE
+ 042A:0818       _PUT_A
+ 042A:087A       _NEXT_WR_BUFFER
+ 042A:08C0       _FLUSH_DOS
+ 042A:08D7       _IOERR
+ 042A:0902       _COMMON_ERROR
+ 042A:090F       _RTERROR
+ 042A:0931       _CCERROR
+ 042A:097A       _CCERR1
+ 042A:0980       _F77ERRENTRY
+ 042A:0AC9       _ERROR_SUB
+ 042A:0B25       _OPEN_ERROR_FILE
+ 042A:0B4C       _READ_ERROR_FILE
+ 042A:0D39       _GET_CS_IP
+ 042A:0E60       _RPOWR
+ 042A:0E60       _IPOWR
+ 042A:0F23       _IPOWI
+ 042A:0F77       _RPOWI
+ 042A:1015       _CHECK_VERSION
+ 042A:1026       _VCT_GETMEM
+ 042A:1030       _VCT_RLSMEM
+ 042A:103A       _PREPC
+ 042A:1044       _87TRUNC
+ 042A:1060       _87INT
+ 042A:1068       _87ROUND
+ 042A:1081       _87CHOP
+ 042A:109C       _87INIT
+ 042A:10AD       _87SAVE
+ 042A:10B7       _SET_RTP
+ 042A:10C5       _87RSTOR
+ 042A:10CA       _CLR_RTP
+ 042A:10D6       _87TESTP
+ 042A:10DE       _87TEST
+ 042A:10E1       _87FLAGS
+ 042A:10F6       _FUNENTR
+ 042A:110B       _FUNEXIT
+ 042A:111B       _LNORMAL
+ 042A:112D       _ADML2C
+ 042A:115B       _LONG_SEG
+ 042A:1173       _SEG_LONG
+ 042A:1185       _PTR_ADD
+ 042A:11B0       @DLOG10
+ 042A:11B0       @LOG10
+ 042A:11B0       @ALOG10
+ 042A:1210       @MOD
+ 042A:1210       @I2MOD
+ 042A:1210       @DMOD
+ 042A:1210       @AMOD
+ 042A:124B       _FCHEQS
+ 042A:1270       @COS
+ 042A:1270       @DCOS
+ 042A:1299       __COS
+ 042A:12A6       @SIN
+ 042A:12A6       @DSIN
+ 042A:12CF       __SIN
+ 042A:13B0       _F77LINIT
+ 042A:1681       _SET_INTERRUPTS
+ 042A:16ED       _RESTORE_VECTORS
+ 042A:1770       _SET_BREAK
+ 042A:17D3       _INTERRUPT_EMU
+ 042A:17E5       _INTERRUPT_EMU_287
+ 042A:17EA       _CHECK_FOR_RUNTIME
+ 042A:1809       _INTERRUPT_80287
+ 042A:181D       _INTERRUPT_8087
+ 0000:5C32  Abs  FIDRQQ
+ 042A:1A40       _OPEN_PA
+ 042A:1B38       _USERNIT
+ 042A:1B39       _USERTRM
+ 042A:1B3A       _USERNIT2
+ 042A:1B3B       _USERNIT3
+ 042A:1B3C       _USERNIT4
+ 042A:1B3D       _USERTRM2
+ 042A:1B3E       _USERTRM3
+ 042A:1B3F       _USERTRM4
+ 042A:1B40       @ALOG
+ 042A:1B40       @DLOG
+ 042A:1B40       @LOG
+ 042A:1B69       __LOG
+ 042A:1BA0       @EXP
+ 042A:1BA0       @DEXP
+ 042A:1BC9       __EXP
+ 042A:1C30       __COS387
+ 042A:1C3D       __SIN387
+ 042A:1CA5       _FLOAT_SETUP
+ 042A:1D8E       _LFROUND
+ 042A:1DA0       _ROUND_I
+ 042A:1E38       _PACK_EXPONENT
+ 042A:1E4F       _ADJ_CONVERT_NUMBER
+ 042A:1EF7       _ASCII_TO_FLOAT
+ 042A:1FC7       _ADJ_STORE
+ 042A:20B9       _INT8087
+ 042A:20D2       _GET_N_FMT_BYTES
+ 042A:21B5       _PUT_N_FMT_BYTES
+ 042A:2270       _CK_FLAGS
+ 042A:2290       _LFCHECK_CPU_TYPE
+ 042A:22DE       _SET_CTLBRK
+ 042A:2332       _GET_N_D
+ 042A:2457       _PUT_N_D
+ 0682:0004       _fndunit
+ 0682:005F       _delfcb
+ 0682:00E2       _tag_fcb
+ 0682:0108       _conflsh
+ 0682:0178       _STOP
+ 0682:01FF       _7_close
+ 0682:02FC       _write_buffer
+ 0682:038C       _alloc_buffer
+ 06BE:000C       _ontzf
+ 06BE:018B       _ncode
+ 06BE:01B9       _otdnf
+ 06BE:0231       _otrel4
+ 06BE:0272       _otrel8
+ 06BE:02B3       _otint1
+ 06BE:02E9       _otint2
+ 06BE:031E       _otint4
+ 06BE:0354       _otint8
+ 06BE:041C       _otcmx8
+ 06BE:0462       _otcmx16
+ 06BE:05BE       _otlog1
+ 06BE:05E1       _otlog4
+ 06BE:0696       _otchr
+ 0000:8000  Abs  FJSRQQ
+ 06BE:1522       _margin_check
+ 081D:0002       _fmtck
+ 08F6:0000       _EMINIT87
+ 08F6:0023       _EMINIT287
+ 0000:A23D  Abs  FIWRQQ
+ 0B09:000E       _fndname
+ 0B09:005C       _alocfcb
+ 0B09:0102       _get_current_fcb
+ 0B09:010A       _init_fcb
+ 0B09:0125       _release_fcb
+ 0B09:0176       _check_for_io
+ 0B21:0008       _set_read_mode
+ 0B21:004E       _set_write_mode
+ 0B21:00E6       _truncate
+ 0B21:01C5       _unit_check
+ 0B21:0202       _cmp_name
+ 0B21:0254       _strcmpr
+ 0B21:0348       _strcopy
+ 0B21:03A3       __gpvc
+ 0B21:0464       __back1_sequential
+ 0B21:0527       _set_record
+ 0B21:05A5       __drst
+ 0B21:08AF       _create_scratch_file
+ 0B21:09CE       _read_buffer
+ 0B21:0A88       _ensure_tty
+ 0B21:0BDA       set_iostat
+ 0B21:0BEC       _stcu_d
+ 0BE7:000A       _lsbrk
+ 0BE7:0082       _7_sbrk
+ 0BE7:00AC       _getmem
+ 0BE7:00BF       _getml
+ 0000:C000  Abs  FJCRQQ
+ 0BE7:01BF       _rlsmem
+ 0BE7:01D8       _rlsml
+ 0C31:0008       _init_internal
+ 0C31:0129       _fmt_initialize
+ 0C31:0185       _fmt_list_process
+ 0C31:0AB9       _check_position
+ 0C31:0B0F       _end_input_record
+ 0C31:0C2C       _end_output_record
+ 0C31:0DCD       _put_fmt_byte
+ 0C31:1067       _get_fmt_byte
+ 0C31:1154       _clenflag
+ 0C31:1175       _ntznumf
+ 0C31:117F       _itemsize
+ 0D4F:000A       _mwmpyl
+ 0D51:000C       _mwudivl
+ 0D51:00B5       _mwumodl
+ 0D51:00D2       _mwdivl
+ 0D51:015B       _mwmodl
+ 0D51:0182       _mwreml
+ 0D6A:000F       _COMMON_END
+ 0D6A:000F       _COMMON_BEGIN
+ 0000:FE32  Abs  FIARQQ
+
+Program entry point at 042A:0160
