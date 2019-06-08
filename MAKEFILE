@@ -1,0 +1,13 @@
+FC         = f77l
+FFLAGS     = /no/s/e
+LINKER     = optcomp
+PROGRAM    = warp.exe
+LDFLAGS    = /m
+LIBS		= c:\f77l\graph.lib
+MAKEFILE	= Makefile
+OBJS		= warp.obj
+SRCS		= warp.for
+
+$(PROGRAM):     $(OBJS) $(LIBS)
+		$(LINKER) $(OBJS),$@,$*.map,$(LIBS) $(LDFLAGS);
+
